@@ -1,0 +1,4 @@
+interface:
+  display_name: "创建 Plurk Reply"
+  short_description: "先检查线程与资格边界，再回复符合条件的互动请求内容。"
+  default_prompt: "使用 $plurk-mcp-create-reply 先检查 thread context，再回复符合条件的互动。"

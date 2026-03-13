@@ -1,0 +1,4 @@
+interface:
+  display_name: "创建 Plurk Post"
+  short_description: "整理内容后创建新 plurk，并遵守每日发帖配额边界。"
+  default_prompt: "使用 $plurk-mcp-create-post 整理最终内容并发布一条受护栏约束的新 plurk。"

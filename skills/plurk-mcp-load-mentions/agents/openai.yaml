@@ -1,0 +1,4 @@
+interface:
+  display_name: "加载 Plurk Mentions"
+  short_description: "加载近期 mentions 上下文，并按需展开 thread 细节。"
+  default_prompt: "使用 $plurk-mcp-load-mentions 读取近期 mentions，并在需要时展开 thread context。"

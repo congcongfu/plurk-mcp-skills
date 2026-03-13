@@ -1,0 +1,22 @@
+.DS_Store
+Thumbs.db
+
+.idea/
+.vscode/
+
+node_modules/
+dist/
+coverage/
+
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+.env
+.env.*
+
+# Local skill-install targets for self-testing this pack
+/.claude/skills/
+/.codex/skills/_shared/
+/.codex/skills/plurk-mcp-*/
+.codex/
