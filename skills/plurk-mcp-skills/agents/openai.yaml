@@ -1,4 +1,4 @@
 interface:
   display_name: "plurk-mcp 入口"
-  short_description: "统一路由到 Profile、Alerts、Mentions、Post、Reply 子技能。"
-  default_prompt: "使用 $plurk-mcp-skills 先判断当前请求应该进入哪个 plurk-mcp 子技能。"
+  short_description: "统一路由到指定账号的 Profile、Alerts、Mentions、Post、Reply 子技能。"
+  default_prompt: "使用 $plurk-mcp-skills 先判断当前请求应该进入哪个 plurk-mcp 子技能；如果是多账号场景，先锁定目标账号。"

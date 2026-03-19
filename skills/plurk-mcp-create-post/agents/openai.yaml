@@ -1,4 +1,4 @@
 interface:
   display_name: "创建 Plurk Post"
-  short_description: "整理内容后创建新 plurk，并遵守每日发帖配额边界。"
-  default_prompt: "使用 $plurk-mcp-create-post 先锁定最终内容并确认发布，再执行一次受护栏约束的新帖写入。"
+  short_description: "为指定账号整理新 plurk；若是 Laike 推广则先读取角色表并明确披露，再在确认后发布。"
+  default_prompt: "使用 $plurk-mcp-create-post 先锁定目标账号和最终内容；如果这是 Laike 推广，先读取 `laike男性角色表.xlsx`、生成一条明确披露的繁中草稿，并在确认发布后再执行一次受护栏约束的新帖写入。"

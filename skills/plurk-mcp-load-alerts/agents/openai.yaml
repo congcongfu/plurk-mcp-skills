@@ -1,4 +1,4 @@
 interface:
   display_name: "加载 Plurk Alerts"
-  short_description: "加载近期标准化 Plurk alerts，并提炼需要关注的互动。"
-  default_prompt: "使用 $plurk-mcp-load-alerts 读取近期标准化 alerts 并总结重点。"
+  short_description: "加载目标账号的近期标准化 Plurk alerts，并提炼需要关注的互动。"
+  default_prompt: "使用 $plurk-mcp-load-alerts 读取目标账号的近期标准化 alerts；如果账号不明确，先确认要用哪组 credentials。"

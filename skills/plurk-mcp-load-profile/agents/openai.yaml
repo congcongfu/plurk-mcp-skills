@@ -1,4 +1,4 @@
 interface:
   display_name: "加载 Plurk Profile"
-  short_description: "加载当前认证账号的标准化 Plurk profile 信息。"
-  default_prompt: "使用 $plurk-mcp-load-profile 读取当前认证账号的 Plurk profile 信息。"
+  short_description: "加载指定 credentials 对应账号的标准化 Plurk profile 信息。"
+  default_prompt: "使用 $plurk-mcp-load-profile 读取指定 credentials 对应账号的 Plurk profile 信息，并确认当前会操作哪个账号。"

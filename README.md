@@ -15,7 +15,7 @@
 - `plurk-mcp-skills`
   统一入口 skill，用于把请求路由到下面 5 个具体技能。
 - `plurk-mcp-load-profile`
-  读取当前认证账号的标准化 profile。
+  读取指定 credentials 对应账号的标准化 profile。
 - `plurk-mcp-load-alerts`
   读取近期 alerts，并提炼值得关注的互动。
 - `plurk-mcp-load-mentions`
